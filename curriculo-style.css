@@ -1,14 +1,53 @@
 .container {
+    background-image: url("https://wallpaperaccess.com/full/2985860.jpg");
     align-content: center;
+    box-sizing: border-box;
+    border: 4px solid #0fbbad;
+    border-radius: 20px;
 }
 
-.objetivos, .historico, .competencias, .formacao {
+.nome:hover {
+    font-size: 32px;
+}
+
+.objetivos, .historico, .competencias, .formacao1, .formacao2 {
     box-sizing: border-box;
     width: max-content;
     border: 2px solid #000000;
     border-radius: 10px;
-    text-align: center;
+    text-align: justify;
     padding: 16px;
-    margin-bottom: 24px;
+    margin: 24px;
+    transition: 2s;
+}
+
+.objetivos:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
+}
+
+.historico:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
+}
+
+.competencias:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
+}
+
+.formacao1:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
+}
+
+.formacao2:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
 }
 
