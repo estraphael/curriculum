@@ -1,0 +1,14 @@
+.container {
+    align-content: center;
+}
+
+.objetivos, .historico, .competencias, .formacao {
+    box-sizing: border-box;
+    width: max-content;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
