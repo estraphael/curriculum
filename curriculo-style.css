@@ -51,3 +51,26 @@
     border: 16px solid;
 }
 
+footer {
+    text-align: center;
+    background-image: url("imagem-contato.jpg");
+}
+
+.imagem-email {
+    width: 40px;
+    transition: 1s;
+}
+
+.imagem-email:hover {
+    width: 60px;
+}
+
+.imagem-wpp {
+    width: 62px;
+    transition: 1s;
+}
+
+.imagem-wpp:hover {
+    width: 82px;
+}
+
