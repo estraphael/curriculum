@@ -10,7 +10,7 @@
     font-size: 32px;
 }
 
-.objetivos, .historico, .competencias, .formacao1, .formacao2 {
+.objetivos, .historico, .competencias, .formacao1, .formacao2, .portfolio {
     box-sizing: border-box;
     width: max-content;
     border: 2px solid #000000;
@@ -51,9 +51,24 @@
     border: 16px solid;
 }
 
+.portfolio:hover {
+    background-color: #0fbbad;
+    color: #fefefe;
+    border: 16px solid;
+}
+
 footer {
     text-align: center;
     background-image: url("imagem-contato.jpg");
+}
+
+.port-icon {
+    width: 50px;
+    transition: 1s;
+}
+
+.port-icon:hover {
+    width: 70px;
 }
 
 .imagem-email {
@@ -73,4 +88,6 @@ footer {
 .imagem-wpp:hover {
     width: 82px;
 }
+
+
 
